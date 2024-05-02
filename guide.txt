@@ -1,0 +1,36 @@
+========== Setup ==========
+
+Checking the python and pip 
+---------------------------
+python --version
+pip --version
+---------------------------
+
+---------------------------
+
+python -m venv venv
+
+source venv/bin/activate
+
+window -> powerShell
+.\venv\Scripts\Activate.ps1
+
+---------------------------
+
+========== Setup ==========
+
+========== Django ==========
+
+pip install djangorestframework djoser django-cors-headers python-dotenv
+
+----------------------------
+
+pip freeze
+pip freeze > requirements.txt
+
+django-admin startproject full_auth .  ->  For the run project 
+python manage.py startapp users   ->  For the create the component in project
+
+========== Django ==========
+
+pip install django-ses
